@@ -19,10 +19,6 @@ export function buildPlugins(
         new webpack.DefinePlugin({
             __IS_DEV__: JSON.stringify(isDev),
         }),
-
-        new BundleAnalyzerPlugin({
-            analyzerMode: analyze ? 'server' : 'disabled',
-        }),
     ];
 
     if (isDev) {
