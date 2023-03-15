@@ -6,7 +6,7 @@ const AboutPage = memo(() => {
 
     return (
         <div>
-            {t('О сайте', { ns: 'about' })}
+            {t('О сайте')}
         </div>
     );
 });
