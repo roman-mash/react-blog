@@ -2,7 +2,6 @@ import React from 'react';
 import { ComponentMeta, ComponentStory } from '@storybook/react';
 import { Country } from 'entities/Country';
 import { Currency } from 'entities/Currency';
-import AvatarImg from 'shared/assets/tests/storybook.jpg';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
 import { ProfileCard } from './ProfileCard';
@@ -27,7 +26,7 @@ Primary.args = {
         currency: Currency.RUB,
         city: 'Moscow',
         username: 'admin',
-        avatar: AvatarImg,
+        avatar: 'https://sun9-7.userapi.com/impg/n4CCJ6Xcsb7PLH5QnoJYeOltd6G3U9f7Z_s2XQ/0EIsUVXrv4M.jpg?size=607x1080&quality=96&sign=2b948ae5876f00c28603719e5c683d61&type=album',
     },
 };
 
@@ -51,7 +50,7 @@ Dark.args = {
         currency: Currency.RUB,
         city: 'Moscow',
         username: 'admin',
-        avatar: AvatarImg,
+        avatar: 'https://sun9-7.userapi.com/impg/n4CCJ6Xcsb7PLH5QnoJYeOltd6G3U9f7Z_s2XQ/0EIsUVXrv4M.jpg?size=607x1080&quality=96&sign=2b948ae5876f00c28603719e5c683d61&type=album',
     },
 };
 Dark.decorators = [ThemeDecorator(Theme.DARK)];
