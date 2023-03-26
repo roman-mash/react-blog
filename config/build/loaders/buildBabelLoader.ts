@@ -1,4 +1,7 @@
-export function buildBabelLoader() {
+import { BuildOptions } from '../types/config';
+
+export function buildBabelLoader(options: BuildOptions) {
+    const { isDev } = options;
     return {
         test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
@@ -6,7 +9,11 @@ export function buildBabelLoader() {
             loader: 'babel-loader',
             options: {
                 presets: ['@babel/preset-env'],
+                plugins: [
+                    isDev && require.resolve('react-refresh/babel'),
+                ].filter(Boolean),
             },
         },
+
     };
 }
