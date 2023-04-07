@@ -29,7 +29,9 @@
       "img": "https://u2.9111s.ru/uploads/202205/17/600x1/636d6b2927cb4ed62d30c21efffb1752.jpg",
       "views": 1022,
       "createdAt": "02.04.2023",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -110,6 +112,12 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "Hello world!",
+      "id": "4KyNjSu"
     }
   ],
   "users": [
@@ -128,14 +136,28 @@
       "avatar": "https://kinovolna.tv/wp-content/uploads/2019/10/DP-P23XUAM4JMD.jpg-large.jpg"
     }
   ],
-  "profile": {
-    "first": "Roman",
-    "lastname": "Mashin",
-    "age": 25,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Ufa",
-    "username": "admin",
-    "avatar": "https://sun9-7.userapi.com/impg/n4CCJ6Xcsb7PLH5QnoJYeOltd6G3U9f7Z_s2XQ/0EIsUVXrv4M.jpg?size=607x1080&quality=96&sign=2b948ae5876f00c28603719e5c683d61&type=album"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Roman",
+      "lastname": "Mashin",
+      "age": 25,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Ufa",
+      "username": "admin",
+      "avatar": "https://sun9-7.userapi.com/impg/n4CCJ6Xcsb7PLH5QnoJYeOltd6G3U9f7Z_s2XQ/0EIsUVXrv4M.jpg?size=607x1080&quality=96&sign=2b948ae5876f00c28603719e5c683d61&type=album"
+    },
+    {
+      "id": "2",
+      "first": "Crazy",
+      "lastname": "Master",
+      "age": 30,
+      "currency": "USD",
+      "country": "Belarus",
+      "city": "Minsk",
+      "username": "crazy",
+      "avatar": "https://kinovolna.tv/wp-content/uploads/2019/10/DP-P23XUAM4JMD.jpg-large.jpg"
+    }
+  ]
 }
