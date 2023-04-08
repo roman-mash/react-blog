@@ -1,6 +1,7 @@
 import { useTranslation } from 'react-i18next';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { memo } from 'react';
+import { Article, ArticleList, ArticleView } from 'entities/Article';
 import cls from './ArticlesPage.module.scss';
 
 interface ArticlesPageProps {
@@ -10,9 +11,19 @@ interface ArticlesPageProps {
 const ArticlesPage = ({ className }: ArticlesPageProps) => {
     const { t } = useTranslation();
     return (
-        // eslint-disable-next-line i18next/no-literal-string
         <div className={classNames(cls.ArticlesPage, {}, [className])}>
-            Articles page
+            <ArticleList
+                isLoading
+                view={ArticleView.BIG}
+                articles={
+                    new Array(16)
+                        .fill(0)
+                        .map((item, index) => ({
+                            ...article,
+                            id: String(index),
+                        }))
+                }
+            />
         </div>
     );
 };

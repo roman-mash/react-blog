@@ -10,6 +10,10 @@ const data: Article = {
     views: 1022,
     createdAt: '02.04.2023',
     type: [ArticleTypes.IT],
+    user: {
+        id: '1',
+        username: 'Roman',
+    },
     blocks: [
         {
             id: '1',

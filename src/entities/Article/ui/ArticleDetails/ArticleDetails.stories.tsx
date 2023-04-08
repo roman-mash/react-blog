@@ -6,7 +6,7 @@ import { ArticleBlockType, ArticleTypes } from 'entities/Article/model/types/art
 import { ArticleDetails } from './ArticleDetails';
 
 export default {
-    title: 'entities/ArticleDetails',
+    title: 'entities/Article/ArticleDetails',
     component: ArticleDetails,
     argTypes: {
         backgroundColor: { control: 'color' },
@@ -22,6 +22,10 @@ const article: Article = {
     img: 'https://u2.9111s.ru/uploads/202205/17/600x1/636d6b2927cb4ed62d30c21efffb1752.jpg',
     views: 1022,
     createdAt: '02.04.2023',
+    user: {
+        id: '1',
+        username: 'Roman',
+    },
     type: [ArticleTypes.IT],
     blocks: [
         {
