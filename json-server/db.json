@@ -172,7 +172,7 @@
       "subtitle": "Come here for go",
       "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
       "views": 530,
-      "createdAt": "09.04.2023",
+      "createdAt": "17.04.2023",
       "userId": "1",
       "type": [
         "IT"
@@ -242,9 +242,9 @@
       "id": "4",
       "title": "PHP",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1200px-PHP-logo.svg.png",
+      "views": 5330,
+      "createdAt": "09.06.2018",
       "userId": "1",
       "type": [
         "IT"
@@ -277,9 +277,9 @@
       "id": "5",
       "title": "Python",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://office-guru.ru/wp-content/uploads/2021/08/wepk.jpeg",
+      "views": 2234,
+      "createdAt": "09.04.2022",
       "userId": "1",
       "type": [
         "IT"
@@ -306,9 +306,9 @@
       "id": "6",
       "title": "Typescript",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://www.saninnsalas.com/wp-content/uploads/2018/02/typescript.png",
+      "views": 2345,
+      "createdAt": "19.12.2021",
       "userId": "1",
       "type": [
         "IT"
@@ -333,11 +333,11 @@
     },
     {
       "id": "7",
-      "title": "Python",
+      "title": "Ruby",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://i.pinimg.com/originals/eb/9e/3b/eb9e3b7dab09358e7cf13f188f64f9f4.png",
+      "views": 59,
+      "createdAt": "09.04.2020",
       "userId": "1",
       "type": [
         "IT"
@@ -362,11 +362,11 @@
     },
     {
       "id": "8",
-      "title": "Python",
+      "title": "Java",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://www.reksoft.ru/wp-content/uploads/2021/02/Kak-ustanovit-Java-s-apt-na-Ubuntu-18.04-1024x724.jpg",
+      "views": 10000,
+      "createdAt": "17.03.2023",
       "userId": "1",
       "type": [
         "IT"
@@ -391,11 +391,11 @@
     },
     {
       "id": "9",
-      "title": "Python",
+      "title": "C++",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://avatars.mds.yandex.net/i?id=3b92cd90d2baeb17fff8dbe1b723260c2e6f69ca-9222419-images-thumbs&n=13&exp=1",
+      "views": 756,
+      "createdAt": "15.04.2023",
       "userId": "1",
       "type": [
         "IT"
@@ -420,11 +420,11 @@
     },
     {
       "id": "10",
-      "title": "Python",
+      "title": "C#",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://logojinni.com/image/logos/c--4.svg",
+      "views": 3245,
+      "createdAt": "09.06.2015",
       "userId": "1",
       "type": [
         "IT"
@@ -449,11 +449,11 @@
     },
     {
       "id": "11",
-      "title": "Python",
+      "title": "Kotlin",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://dkrn4sk0rn31v.cloudfront.net/uploads/2017/08/kotlin-a-nova-linguagem-oficial-para-desenvolvimento-android.png",
+      "views": 457,
+      "createdAt": "09.04.2021",
       "userId": "1",
       "type": [
         "IT"
@@ -478,11 +478,11 @@
     },
     {
       "id": "12",
-      "title": "Python",
+      "title": "1c",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://avatars.mds.yandex.net/i?id=f7b6595bb2227b846956692e3ccd02e1c7725aa4-5177029-images-thumbs&n=13&exp=1",
+      "views": 324,
+      "createdAt": "09.04.2017",
       "userId": "1",
       "type": [
         "IT"
@@ -507,11 +507,11 @@
     },
     {
       "id": "13",
-      "title": "Python",
+      "title": "Swift",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://sun6-23.userapi.com/impf/r_P2hrmQKmrPdZk0oLzrr2-px81mHU-qtsnJtQ/nmbhCkvThhM.jpg?size=604x403&quality=96&sign=c3908526b538b6c865480492b81e40f2&type=album",
+      "views": 3253,
+      "createdAt": "24.06.2019",
       "userId": "1",
       "type": [
         "IT"
@@ -536,9 +536,9 @@
     },
     {
       "id": "14",
-      "title": "Python",
+      "title": "Dart",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
+      "img": "https://i.pinimg.com/originals/8a/7c/b2/8a7cb2fb686362eb36abf5fda8e3fe63.webp",
       "views": 530,
       "createdAt": "09.04.2023",
       "userId": "1",
@@ -565,11 +565,11 @@
     },
     {
       "id": "15",
-      "title": "Python",
+      "title": "Python vs PHP",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://lapojap.com/wp-content/uploads/2020/09/Python-vs-php.jpg",
+      "views": 23512,
+      "createdAt": "09.06.2019",
       "userId": "1",
       "type": [
         "IT"
@@ -594,10 +594,10 @@
     },
     {
       "id": "16",
-      "title": "Python",
+      "title": "JS vs TS",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
+      "img": "https://i.ytimg.com/vi/t3BM0wKoAUY/maxresdefault.jpg?7857057827",
+      "views": 530456,
       "createdAt": "09.04.2023",
       "userId": "1",
       "type": [
@@ -623,9 +623,9 @@
     },
     {
       "id": "17",
-      "title": "Python",
+      "title": "Julia",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
+      "img": "https://i.pinimg.com/originals/f1/5c/58/f15c58d4d94d8405ad473938ac8b37e9.jpg",
       "views": 530,
       "createdAt": "09.04.2023",
       "userId": "1",
@@ -652,11 +652,11 @@
     },
     {
       "id": "18",
-      "title": "Python",
+      "title": "Perl",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://luxe-host.ru/wp-content/uploads/c/c/6/cc66c546d4f27a81a10c93a133261b24.png",
+      "views": 2345,
+      "createdAt": "09.04.2018",
       "userId": "1",
       "type": [
         "IT"
@@ -681,11 +681,11 @@
     },
     {
       "id": "19",
-      "title": "Python",
+      "title": "Haskell",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://i.imgur.com/nxbprNt.jpg",
+      "views": 876,
+      "createdAt": "09.08.2019",
       "userId": "1",
       "type": [
         "IT"
@@ -710,10 +710,10 @@
     },
     {
       "id": "20",
-      "title": "Python",
+      "title": "Groovy",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
+      "img": "https://p1-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/d4bb10c70f334eaeada95a0520e002c5~tplv-k3u1fbpfcp-zoom-crop-mark:4536:4536:4536:2553.image",
+      "views": 867,
       "createdAt": "09.04.2023",
       "userId": "1",
       "type": [
@@ -739,9 +739,9 @@
     },
     {
       "id": "21",
-      "title": "Python",
+      "title": "GraphQL",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
+      "img": "https://dkrn4sk0rn31v.cloudfront.net/uploads/2021/05/selecionando_cores-1.png",
       "views": 530,
       "createdAt": "09.04.2023",
       "userId": "1",
@@ -768,14 +768,72 @@
     },
     {
       "id": "22",
-      "title": "Python",
+      "title": "C",
       "subtitle": "Come here for go",
-      "img": "https://cdn-images-1.medium.com/v2/resize:fit:1024/1*O6smhCYMidwDWWGk6HYD3w.jpeg",
-      "views": 530,
-      "createdAt": "09.04.2023",
+      "img": "https://i.pinimg.com/originals/ba/82/56/ba8256720a7edeb9d45301d9b81f716a.jpg",
+      "views": 3467,
+      "createdAt": "09.04.2022",
       "userId": "1",
       "type": [
         "IT"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Экономика",
+      "subtitle": "Come here for go",
+      "img": "https://businesstory.ru/wp-content/uploads/2021/02/18985.jpg",
+      "views": 3467,
+      "createdAt": "09.04.2022",
+      "userId": "1",
+      "type": [
+        "ECONOMICS"
+      ],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Заголовок этого блока",
+          "paragraphs": [
+            "Программа, которую по традиции называют «Hello, world!», очень проста. Она выводит куда-либо фразу «Hello, world!», или другую подобную, средствами некоего языка.",
+            "JavaScript — это язык, программы на котором можно выполнять в разных средах. В нашем случае речь идёт о браузерах и о серверной платформе Node.js. Если до сих пор вы не написали ни строчки кода на JS и читаете этот текст в браузере, на настольном компьютере, это значит, что вы буквально в считанных секундах от своей первой JavaScript-программы.",
+            "Существуют и другие способы запуска JS-кода в браузере. Так, если говорить об обычном использовании программ на JavaScript, они загружаются в браузер для обеспечения работы веб-страниц. Как правило, код оформляют в виде отдельных файлов с расширением .js, которые подключают к веб-страницам, но программный код можно включать и непосредственно в код страницы. Всё это делается с помощью тега <script>. Когда браузер обнаруживает такой код, он выполняет его. Подробности о теге script можно посмотреть на сайте w3school.com. В частности, рассмотрим пример, демонстрирующий работу с веб-страницей средствами JavaScript, приведённый на этом ресурсе. Этот пример можно запустить и средствами данного ресурса (ищите кнопку Try it Yourself), но мы поступим немного иначе. А именно, создадим в каком-нибудь текстовом редакторе (например — в VS Code или в Notepad++) новый файл, который назовём hello.html, и добавим в него следующий код:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Наука",
+      "subtitle": "Come here for go",
+      "img": "https://i.pinimg.com/originals/fb/9e/23/fb9e23bd57afa608d564a17e6b439b13.jpg",
+      "views": 3467,
+      "createdAt": "09.04.2022",
+      "userId": "1",
+      "type": [
+        "SCIENCE"
       ],
       "blocks": [
         {
