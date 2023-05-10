@@ -1,5 +1,6 @@
 .ListBox {
     position: relative;
+    width: fit-content;
 }
 
 .options {
@@ -8,11 +9,6 @@
     background: var(--listbox-bg);
     border-radius: 12px;
     box-shadow: 4px 4px 8px var(--listbox-bg);
-    min-width: 100%;
-}
-
-.optionTop {
-    bottom: 100%;
 }
 
 .item {
@@ -29,4 +25,24 @@
 
 .label {
     margin-right: 4px;
+}
+
+.optionBottomLeft {
+    top: 100%;
+    left: 0;
+}
+
+.optionBottomRight {
+    top: 100%;
+    right: 0;
+}
+
+.optionTopLeft {
+    bottom: 100%;
+    left: 0;
+}
+
+.optionTopRight {
+    bottom: 100%;
+    right: 0;
 }
