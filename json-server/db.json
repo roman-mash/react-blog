@@ -1,24 +1,31 @@
 {
-  "posts": [
+  "notifications": [
     {
       "id": "1",
-      "title": "json-server1",
-      "author": "typicode"
+      "title": "New post",
+      "description": "User created new post",
+      "userId": "1"
     },
     {
       "id": "2",
-      "title": "json-server2",
-      "author": "typicode"
+      "title": "New language",
+      "description": "Something new happened",
+      "userId": "1",
+      "href": "http://Localhost:3000/admin"
     },
     {
       "id": "3",
-      "title": "json-server3",
-      "author": "typicode"
+      "title": "Notification from server",
+      "description": "typicode",
+      "userId": "1",
+      "href": "http://Localhost:3000/admin"
     },
     {
       "id": "4",
       "title": "json-server4",
-      "author": "typicode"
+      "description": "typicode",
+      "userId": "1",
+      "href": "http://Localhost:3000/admin"
     }
   ],
   "articles": [

@@ -19,24 +19,24 @@
 
 @keyframes lds-ripple {
     0% {
-        top: 36px;
-        left: 36px;
+        top: 40px;
+        left: 40px;
         width: 0;
         height: 0;
         opacity: 0;
     }
 
     4.9% {
-        top: 36px;
-        left: 36px;
+        top: 40px;
+        left: 40px;
         width: 0;
         height: 0;
         opacity: 0;
     }
 
     5% {
-        top: 36px;
-        left: 36px;
+        top: 40px;
+        left: 40px;
         width: 0;
         height: 0;
         opacity: 1;
@@ -45,8 +45,8 @@
     100% {
         top: 0;
         left: 0;
-        width: 72px;
-        height: 72px;
+        width: 80px;
+        height: 80px;
         opacity: 0;
     }
 }
