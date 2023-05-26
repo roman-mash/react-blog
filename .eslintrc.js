@@ -68,7 +68,12 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
-        'fsd-inspector/module-relative-path': 'error',
+        'fsd-inspector/module-relative-path': [
+            'error',
+            {
+                alias: '@',
+            },
+        ],
     },
     globals: {
         __IS_DEV__: true,
