@@ -1,6 +1,5 @@
 import { useTranslation } from 'react-i18next';
-import { memo, useState } from 'react';
-import { BugButton } from '@/app/providers/ErrorBoundary';
+import { memo } from 'react';
 import { Page } from '@/widgets/Page/Page';
 
 const MainPage = memo(() => {
@@ -8,7 +7,6 @@ const MainPage = memo(() => {
 
     return (
         <Page>
-            <BugButton />
             {t('Главная')}
         </Page>
     );
