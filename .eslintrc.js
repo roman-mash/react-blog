@@ -68,10 +68,12 @@ module.exports = {
         'no-param-reassign': 'off',
         'no-undef': 'off',
         'react/no-array-index-key': 'off',
-        'fsd-inspector/module-relative-path': [
+        'fsd-inspector/module-relative-path': ['error', { alias: '@' }],
+        'fsd-inspector/public-api-imports': [
             'error',
             {
                 alias: '@',
+                testFilesPatterns: ['**/*.test.*', '**/*.stories.*', '**/StoreDecorator.tsx'],
             },
         ],
     },
