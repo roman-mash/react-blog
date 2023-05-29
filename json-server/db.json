@@ -980,6 +980,12 @@
       "rate": 5,
       "feedback": "Nice",
       "id": "gUIf84k"
+    },
+    {
+      "userId": "1",
+      "articleId": "5",
+      "rate": 4,
+      "id": "uzZgEnN"
     }
   ]
 }
