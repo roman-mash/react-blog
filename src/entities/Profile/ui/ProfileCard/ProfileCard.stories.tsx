@@ -7,7 +7,7 @@ import { ProfileCard } from './ProfileCard';
 import { Theme } from '@/shared/const/theme';
 
 export default {
-    title: 'entities/ProfileCard',
+    title: 'entities/Profile/ProfileCard',
     component: ProfileCard,
     argTypes: {
         backgroundColor: { control: 'color' },

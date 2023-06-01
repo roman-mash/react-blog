@@ -17,3 +17,9 @@ export const Primary = Template.bind({});
 Primary.args = {
     size: 100,
 };
+
+export const Selected = Template.bind({});
+Selected.args = {
+    size: 100,
+    selectedStars: 3,
+};

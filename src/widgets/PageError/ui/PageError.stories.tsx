@@ -5,7 +5,7 @@ import { PageError } from './PageError';
 import { Theme } from '@/shared/const/theme';
 
 export default {
-    title: 'widget/PageError',
+    title: 'widgets/PageError',
     component: PageError,
     argTypes: {
         backgroundColor: { control: 'color' },
