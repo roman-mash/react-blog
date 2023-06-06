@@ -926,6 +926,15 @@
         "MANAGER"
       ],
       "avatar": "https://kinovolna.tv/wp-content/uploads/2019/10/DP-P23XUAM4JMD.jpg-large.jpg"
+    },
+    {
+      "id": "4",
+      "username": "testuser",
+      "password": "123",
+      "roles": [
+        "ADMIN"
+      ],
+      "avatar": "https://sun9-7.userapi.com/impg/n4CCJ6Xcsb7PLH5QnoJYeOltd6G3U9f7Z_s2XQ/0EIsUVXrv4M.jpg?size=607x1080&quality=96&sign=2b948ae5876f00c28603719e5c683d61&type=album"
     }
   ],
   "profile": [
