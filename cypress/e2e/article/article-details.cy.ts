@@ -33,4 +33,12 @@ describe('Article Page', () => {
         cy.setRate(5, 'feedback');
         cy.get('[data-selected=true]').should('have.length', 5);
     });
+
+    it('mark can be left stubs', () => {
+        cy.intercept('GET', '**/articles/*', { fixture: 'article-details.json' });
+        cy.getByTestId('ArticleDetails.info');
+        cy.getByTestId('RatingCard').scrollIntoView();
+        cy.setRate(5, 'feedback');
+        cy.get('[data-selected=true]').should('have.length', 5);
+    });
 });
