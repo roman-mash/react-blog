@@ -959,6 +959,17 @@
       "city": "Minsk",
       "username": "crazy",
       "avatar": "https://kinovolna.tv/wp-content/uploads/2019/10/DP-P23XUAM4JMD.jpg-large.jpg"
+    },
+    {
+      "id": "4",
+      "first": "Test",
+      "lastname": "User",
+      "age": 30,
+      "currency": "USD",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "testuser",
+      "avatar": "https://kinovolna.tv/wp-content/uploads/2019/10/DP-P23XUAM4JMD.jpg-large.jpg"
     }
   ],
   "article-ratings": [
