@@ -1,7 +1,10 @@
 import { memo, useCallback } from 'react';
 import { useSelector } from 'react-redux';
 import { classNames } from '@/shared/lib/classNames/classNames';
-import { DynamicModuleLoader, ReducersList } from '@/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
+import {
+    DynamicModuleLoader,
+    ReducersList,
+} from '@/shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import { useAppDispatch } from '@/shared/lib/hooks/useAppDispatch/useAppDispatch';
 import { Page } from '@/widgets/Page';
 import { Text, TextTheme } from '@/shared/ui/Text';
@@ -30,9 +33,7 @@ const ArticlesPage = ({ className }: ArticlesPageProps) => {
 
     if (error) {
         return (
-            <Page
-                className={classNames(cls.ArticlesPage, {}, [className])}
-            >
+            <Page className={classNames(cls.ArticlesPage, {}, [className])}>
                 <Text theme={TextTheme.ERROR} text={error} />
             </Page>
         );

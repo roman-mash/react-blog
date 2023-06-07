@@ -17,28 +17,13 @@ export default {
     // The test environment that will be used for testing
     testEnvironment: 'jsdom',
     // An array of regexp pattern strings used to skip coverage collection
-    coveragePathIgnorePatterns: [
-        '\\\\node_modules\\\\',
-    ],
+    coveragePathIgnorePatterns: ['\\\\node_modules\\\\'],
     // An array of file extensions your modules use
-    moduleFileExtensions: [
-        'js',
-        'jsx',
-        'ts',
-        'tsx',
-        'json',
-        'node',
-    ],
+    moduleFileExtensions: ['js', 'jsx', 'ts', 'tsx', 'json', 'node'],
     // An array of directory names to be searched recursively up from the requiring module's location
-    moduleDirectories: [
-        'node_modules',
-    ],
-    modulePaths: [
-        '<rootDir>src',
-    ],
-    testMatch: [
-        '<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)',
-    ],
+    moduleDirectories: ['node_modules'],
+    modulePaths: ['<rootDir>src'],
+    testMatch: ['<rootDir>src/**/*(*.)@(spec|test).[tj]s?(x)'],
     // A list of paths to directories that Jest should use to search for files in
     rootDir: '../../',
     setupFilesAfterEnv: ['<rootDir>config/jest/setupTests.ts'],
@@ -49,13 +34,16 @@ export default {
     },
     reporters: [
         'default',
-        ['jest-html-reporters', {
-            publicPath: '<rootDir>/reports/unit/',
-            filename: 'report.html',
-            // openReport: true,
-            inlineSource: true,
-            darkTheme: true,
-        }],
+        [
+            'jest-html-reporters',
+            {
+                publicPath: '<rootDir>/reports/unit/',
+                filename: 'report.html',
+                // openReport: true,
+                inlineSource: true,
+                darkTheme: true,
+            },
+        ],
     ],
 
     // All imported modules in your tests should be mocked automatically

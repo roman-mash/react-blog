@@ -22,10 +22,12 @@ Primary.args = {
         {
             value: 'IT',
             content: 'IT',
-        }, {
+        },
+        {
             value: 'Economics',
             content: 'Economics',
-        }, {
+        },
+        {
             value: 'Science',
             content: 'Science',
         },
@@ -40,10 +42,12 @@ PrimaryDark.args = {
         {
             value: 'IT',
             content: 'IT',
-        }, {
+        },
+        {
             value: 'Economics',
             content: 'Economics',
-        }, {
+        },
+        {
             value: 'Science',
             content: 'Science',
         },

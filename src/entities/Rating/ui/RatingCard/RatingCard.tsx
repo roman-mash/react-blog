@@ -36,14 +36,17 @@ export const RatingCard = memo((props: RatingCardProps) => {
     const [starsCount, setStarsCount] = useState(rate);
     const [feedback, setFeedback] = useState('');
 
-    const onSelectStars = useCallback((selectedStarsCount: number) => {
-        setStarsCount(selectedStarsCount);
-        if (hasFeedback) {
-            setIsModalOpen(true);
-        } else {
-            onAccept?.(selectedStarsCount);
-        }
-    }, [hasFeedback, onAccept]);
+    const onSelectStars = useCallback(
+        (selectedStarsCount: number) => {
+            setStarsCount(selectedStarsCount);
+            if (hasFeedback) {
+                setIsModalOpen(true);
+            } else {
+                onAccept?.(selectedStarsCount);
+            }
+        },
+        [hasFeedback, onAccept],
+    );
 
     const acceptHandle = useCallback(() => {
         setIsModalOpen(false);
@@ -75,13 +78,21 @@ export const RatingCard = memo((props: RatingCardProps) => {
         >
             <VStack align="center" gap="8" max>
                 <Text title={starsCount ? t('Спасибо за оценку') : title} />
-                <StarRating selectedStars={starsCount} size={40} onSelect={onSelectStars} />
+                <StarRating
+                    selectedStars={starsCount}
+                    size={40}
+                    onSelect={onSelectStars}
+                />
             </VStack>
             <MobileView>
                 <Drawer isOpen={isModalOpen} lazy onClose={cancelHandle}>
                     <VStack gap="32">
                         {modalContent}
-                        <Button onClick={acceptHandle} size={ButtonSize.L} fullWidth>
+                        <Button
+                            onClick={acceptHandle}
+                            size={ButtonSize.L}
+                            fullWidth
+                        >
                             {t('Отправить')}
                         </Button>
                     </VStack>

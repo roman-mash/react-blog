@@ -16,36 +16,43 @@ export default {
     },
 } as ComponentMeta<typeof ProfilePage>;
 
-const Template: ComponentStory<typeof ProfilePage> = (args) => <ProfilePage {...args} />;
+const Template: ComponentStory<typeof ProfilePage> = (args) => (
+    <ProfilePage {...args} />
+);
 
 export const Light = Template.bind({});
 Light.args = {};
-Light.decorators = [StoreDecorator({
-    profile: {
-        form: {
-            first: 'User',
-            lastname: 'Userov',
-            age: 33,
-            country: Country.Russia,
-            currency: Currency.RUB,
-            city: 'Moscow',
-            username: 'admin',
+Light.decorators = [
+    StoreDecorator({
+        profile: {
+            form: {
+                first: 'User',
+                lastname: 'Userov',
+                age: 33,
+                country: Country.Russia,
+                currency: Currency.RUB,
+                city: 'Moscow',
+                username: 'admin',
+            },
         },
-    },
-})];
+    }),
+];
 
 export const Dark = Template.bind({});
 Dark.args = {};
-Dark.decorators = [ThemeDecorator(Theme.DARK), StoreDecorator({
-    profile: {
-        form: {
-            first: 'User',
-            lastname: 'Userov',
-            age: 33,
-            country: Country.Russia,
-            currency: Currency.RUB,
-            city: 'Moscow',
-            username: 'admin',
+Dark.decorators = [
+    ThemeDecorator(Theme.DARK),
+    StoreDecorator({
+        profile: {
+            form: {
+                first: 'User',
+                lastname: 'Userov',
+                age: 33,
+                country: Country.Russia,
+                currency: Currency.RUB,
+                city: 'Moscow',
+                username: 'admin',
+            },
         },
-    },
-})];
+    }),
+];

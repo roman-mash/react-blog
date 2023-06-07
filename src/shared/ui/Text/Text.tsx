@@ -69,10 +69,7 @@ export const Text = memo((props: TextProps) => {
                 </HeaderTag>
             )}
             {text && (
-                <p
-                    className={cls.text}
-                    data-testid={`${dataTestID}.Paragraph`}
-                >
+                <p className={cls.text} data-testid={`${dataTestID}.Paragraph`}>
                     {text}
                 </p>
             )}

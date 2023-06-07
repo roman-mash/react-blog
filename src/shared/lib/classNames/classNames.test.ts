@@ -5,9 +5,9 @@ describe('classNames', () => {
         expect(classNames('someClass')).toBe('someClass');
     });
     test('with additional classes', () => {
-        expect(
-            classNames('someClass', {}, ['class1', 'class2']),
-        ).toBe('someClass class1 class2');
+        expect(classNames('someClass', {}, ['class1', 'class2'])).toBe(
+            'someClass class1 class2',
+        );
     });
     test('with modes', () => {
         expect(
@@ -26,16 +26,13 @@ describe('classNames', () => {
     test('all cases', () => {
         const expected = 'someClass class1 class2 hovered';
         expect(
-            classNames(
-                'someClass',
-                { hovered: true, disabled: false },
-                ['class1', 'class2'],
-            ),
+            classNames('someClass', { hovered: true, disabled: false }, [
+                'class1',
+                'class2',
+            ]),
         ).toBe(expected);
     });
     test('no args', () => {
-        expect(
-            classNames(''),
-        ).toBe('');
+        expect(classNames('')).toBe('');
     });
 });

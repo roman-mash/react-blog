@@ -1,11 +1,11 @@
 {
-  "Статья не найдена": "Article not found",
-  "Комментарии": "Comments",
-  "Назад к списку": "Back to list",
-  "Рекомендуем": "We recommend",
-  "Редактировать": "Edit",
-  "Редактирование статьи с ID ": "Editing article ID ",
-  "Создание новой статьи": "Create new article",
-  "Оцените статью": "Rate article",
-  "Оставьте отзыв о статье, это поможет улучшить качество": "Please, leave your feedback, it may help us to become better"
+    "Статья не найдена": "Article not found",
+    "Комментарии": "Comments",
+    "Назад к списку": "Back to list",
+    "Рекомендуем": "We recommend",
+    "Редактировать": "Edit",
+    "Редактирование статьи с ID ": "Editing article ID ",
+    "Создание новой статьи": "Create new article",
+    "Оцените статью": "Rate article",
+    "Оставьте отзыв о статье, это поможет улучшить качество": "Please, leave your feedback, it may help us to become better"
 }

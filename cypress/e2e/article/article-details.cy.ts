@@ -35,7 +35,9 @@ describe('Article Page', () => {
     });
 
     it('mark can be left stubs', () => {
-        cy.intercept('GET', '**/articles/*', { fixture: 'article-details.json' });
+        cy.intercept('GET', '**/articles/*', {
+            fixture: 'article-details.json',
+        });
         cy.getByTestId('ArticleDetails.info');
         cy.getByTestId('RatingCard').scrollIntoView();
         cy.setRate(5, 'feedback');
