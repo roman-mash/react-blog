@@ -14,14 +14,19 @@ npm run start:dev или npm run start:dev:vite - запуск сервера + 
 - `npm run start:dev` - Запуск frontend проекта на webpack dev server + backend
 - `npm run start:dev:vite` - Запуск frontend проекта на vite + backend
 - `npm run start:dev:server` - Запуск backend сервера
+- `npm run build:dev` - Сборка в dev режиме
 - `npm run build:prod` - Сборка в prod режиме
-- `npm run build:dev` - Сборка в dev режиме (не минимизирован)
+- `npm run analyze:dev` - Сборка в dev режиме и запуск bundle analyzer
+- `npm run analyze:prod` - Сборка в prod режиме и запуск bundle analyzer
+- `npm run prettier` - Проверка ts, tsx, json на соответствие code-style prettier
 - `npm run lint:ts` - Проверка ts файлов линтером
+- `npm run lint:ts:errors` - Проверка ts файлов линтером и отображение только ошибок(без warning)
 - `npm run lint:ts:fix` - Исправление ts файлов линтером
 - `npm run lint:scss` - Проверка scss файлов style линтером
 - `npm run lint:scss:fix` - Исправление scss файлов style линтером
-- `npm run test:unit` - Хапуск unit тестов с jest
-- `npm run test:ui` - Хапуск скриншотных тестов с loki
+- `npm run test:unit` - Запуск unit тестов с jest
+- `npm run test:e2e` - Запуск e2e тестов с cypress
+- `npm run test:ui` - Запуск скриншотных тестов с loki
 - `npm run test:ui:ok` - Подтверждение новых скриншотов
 - `npm run test:ui:ci` - Запуск скриншотных тестов в CI
 - `npm run test:ui:report` - Генерация полного отчета для скриншотных тестов
@@ -70,7 +75,7 @@ npm run start:dev или npm run start:dev:vite - запуск сервера + 
 В проекте используется eslint для проверки typescript кода и stylelint для проверки файлов со стилями.
 
 Также для строгого контроля главных архитектурных принципов
-используется собственный eslint plugin *eslint-plugin-ulbi-tv-plugin*,
+используется собственный eslint plugin *eslint-plugin-fsd-inspector*,
 который содержит 3 правила
 1) path-checker - запрещает использовать абсолютные импорты в рамках одного модуля
 2) layer-imports - проверяет корректность использования слоев с точки зрения FSD

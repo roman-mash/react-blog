@@ -1,5 +1,10 @@
 import { MutableRefObject, useCallback, useRef } from 'react';
 
+/**
+ * Хук для использования дебаунса
+ * @param callback функция, которую нужно задебаунсить
+ * @param {number} delay задежка, для вызова функции
+ */
 export function useDebounce(callback: (...args: any[]) => void, delay: number) {
     const timer = useRef() as MutableRefObject<any>;
 
